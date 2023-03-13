@@ -1,14 +1,16 @@
-CLASS zcl_test_4_git DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_TEST_4_GIT definition
+  public
+  final
+  create public .
 
-PUBLIC SECTION.
+public section.
+
+  data GV_MATNR type MATNR .
 PROTECTED SECTION.
 PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS zcl_test_4_git IMPLEMENTATION.
+CLASS ZCL_TEST_4_GIT IMPLEMENTATION.
 ENDCLASS.
